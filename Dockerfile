@@ -44,8 +44,8 @@ RUN apt update -qq && apt install -qq -y --no-install-recommends \
         python3 \
         python3-distutils \
         rsync \
-        ruby \
-        ruby-dev \
+        ruby3.0 \
+        ruby3.0-dev \
         tzdata \
         unzip \
         sudo \

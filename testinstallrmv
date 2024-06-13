@@ -1,0 +1,9 @@
+# Install system dependencies
+# RUN apt update -qq && apt-get install software-properties-common -qq -y --no-install-recommends
+# RUN apt add-repository -y ppa:rael-gc/rvm
+
+#apt-get update -qq && \
+# apt-get install software-properties-common -qq -y --no-install-recommends && \
+# apt-add-repository -y ppa:rael-gc/rvm && \
+# apt-get install rvm -qq -y --no-install-recommends && \
+# source /root/.bash_profile
